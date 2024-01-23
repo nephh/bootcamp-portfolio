@@ -7,6 +7,8 @@ import App from "./App.jsx";
 // import ErrorPage from "./pages/ErrorPage";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
+import Projects from "./pages/Projects.jsx";
+import Resume from "./pages/Resume.jsx";
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -23,10 +25,14 @@ const router = createBrowserRouter([
         path: "contact",
         element: <Contact />,
       },
-      // {
-      //   index: "resume",
-      //   element: <Resume />,
-      // },
+      {
+        path: "projects",
+        element: <Projects />,
+      },
+      {
+        path: "resume",
+        element: <Resume />,
+      },
     ],
   },
 ]);

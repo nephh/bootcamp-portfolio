@@ -1,14 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 
-const activeLink = "manrope-bold text-blue-200";
-const inactiveLink = "manrope-default text-zinc-200 hover:font-bold";
-
 export default function Nav() {
   const location = useLocation();
+  const activeLink = "manrope-bold text-blue-200";
+  const inactiveLink = "manrope-default text-zinc-200 hover:font-bold";
 
   return (
     <nav className="flex items-center justify-between bg-zinc-700 p-4">
-      <p className="text-2xl manrope-bold text-blue-200">Owen McCormick</p>
+      <p className="manrope-bold text-2xl text-blue-200">Owen McCormick</p>
       <div>
         <Link
           to="/"

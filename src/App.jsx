@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="flex h-screen flex-col">
       <Nav />
-      <div className="flex flex-grow items-center justify-center bg-zinc-950 text-lg text-zinc-200 manrope-default">
+      <div className="manrope-default flex flex-grow items-center justify-center bg-zinc-950 text-lg text-zinc-200">
         <Outlet />
       </div>
     </div>
