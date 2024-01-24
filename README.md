@@ -1,6 +1,6 @@
 # Portfolio (Module 20 Challenge)
 
-This portfolio showcases my projects and skills as part of the Module 20 Challenge. It serves as a central hub for potential employers or clients to learn more about my work and capabilities.
+A simple portfolio showcasing some projects, along with a few other sections. Created with react and tailwind.
 
 ## Table of Contents
 
