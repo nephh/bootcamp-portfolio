@@ -6,7 +6,7 @@ export default function About() {
         alt="Profile Picture"
         className="mb-4 h-40 rounded-full"
       />
-      <p className="text-center text-2xl leading-9">
+      <p className="text-center text-lg md:text-2xl md:leading-9">
         Hello! My name is Owen and I am on the road to becoming a junior
         developer.
         <br />

@@ -4,7 +4,7 @@ function handleSubmit(e) {
 
 export default function Contact() {
   return (
-    <div className="flex w-5/12 items-center justify-center">
+    <div className="flex w-10/12 md:w-5/12 items-center justify-center">
       <div className="mx-auto w-full">
         <form onSubmit={handleSubmit}>
           <h2 className="m-4 flex justify-center text-3xl font-extrabold">
@@ -68,8 +68,8 @@ export default function Contact() {
               className="text-zinc-900 w-full resize-none rounded-md border border-[#e0e0e0] bg-white px-6 py-3 text-base font-medium outline-none focus:border-[#6A64F1] focus:shadow-md"
             ></textarea>
           </div>
-          <div>
-            <button className="hover:shadow-form rounded-md bg-zinc-700 px-8 py-3 text-base font-semibold text-white outline-none">
+          <div className="flex justify-center">
+            <button className="my-4 px-3 rounded-md bg-zinc-200 p-2 font-extrabold text-zinc-900 transition-all duration-300 hover:px-5">
               Submit
             </button>
           </div>
