@@ -6,42 +6,40 @@ export default function Nav() {
   const inactiveLink = "manrope-default text-zinc-200 hover:font-bold";
 
   return (
-    <nav className="flex items-center justify-between bg-zinc-700 p-4">
-      <p className="manrope-bold text-2xl text-blue-200">Owen McCormick</p>
-      <div>
+    <>
+      <p className="manrope-bold text-2xl text-zinc-200">Owen McCormick</p>
+      <div className="flex space-x-4">
         <Link
           to="/"
-          className={`${
-            location.pathname === "/" ? activeLink : inactiveLink
-          } mr-4`}
+          className={location.pathname === "/" ? activeLink : inactiveLink}
         >
           About Me
         </Link>
         <Link
-          to="/contact"
-          className={`${
-            location.pathname === "/contact" ? activeLink : inactiveLink
-          } mr-4`}
-        >
-          Contact Me
-        </Link>
-        <Link
           to="/projects"
-          className={`${
+          className={
             location.pathname === "/projects" ? activeLink : inactiveLink
-          } mr-4`}
+          }
         >
           Projects
         </Link>
         <Link
           to="/resume"
-          className={`${
+          className={
             location.pathname === "/resume" ? activeLink : inactiveLink
-          }`}
+          }
         >
           Resume
         </Link>
+        <Link
+          to="/contact"
+          className={
+            location.pathname === "/contact" ? activeLink : inactiveLink
+          }
+        >
+          Contact Me
+        </Link>
       </div>
-    </nav>
+    </>
   );
 }

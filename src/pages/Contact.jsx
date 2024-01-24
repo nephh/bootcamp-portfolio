@@ -1,14 +1,17 @@
 export default function Contact() {
   return (
-    <div className="flex items-center justify-center w-5/12">
+    <div className="flex w-5/12 items-center justify-center">
       <div className="mx-auto w-full">
         <form>
-          <h2 className="flex justify-center font-extrabold text-3xl m-4">Contact Me!</h2>
+          <h2 className="m-4 flex justify-center text-3xl font-extrabold">
+            Contact Me!
+          </h2>
           <div className="mb-5">
             <label htmlFor="name" className="mb-3 block text-base font-medium">
               Full Name
             </label>
             <input
+              required
               type="text"
               name="name"
               id="name"
@@ -21,6 +24,7 @@ export default function Contact() {
               Email Address
             </label>
             <input
+              required
               type="email"
               name="email"
               id="email"
@@ -36,6 +40,7 @@ export default function Contact() {
               Subject
             </label>
             <input
+              required
               type="text"
               name="subject"
               id="subject"
@@ -51,6 +56,7 @@ export default function Contact() {
               Message
             </label>
             <textarea
+              required
               rows="4"
               name="message"
               id="message"
