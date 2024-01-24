@@ -1,10 +1,10 @@
 export default function ProjectItem({ title, imgUrl, stack }) {
   return (
-    <div className="transform overflow-hidden rounded-md border-2 border-slate-900 transition-all duration-300 hover:scale-105 dark:border-slate-700">
+    <div className="overflow-hidden rounded-md border-2 border-slate-900 transition-all duration-300 hover:scale-105">
       <img
         src={imgUrl}
         alt="project image"
-        className="h-36 w-full cursor-pointer object-cover md:h-48"
+        className="h-full w-64 object-scale-down cursor-pointer md:h-48 flex justify-center items-center"
       />
       <div className="w-full p-4">
         <h2 className="mb-2 text-lg font-semibold md:mb-3 md:text-xl">

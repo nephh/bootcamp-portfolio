@@ -1,13 +1,13 @@
 export default [
   {
     title: "EZ JSON",
-    imgUrl: "/assets/8bit-custom.png",
+    imgUrl: "/ezjson.png",
     stack: ["JavaScript"],
     link: "/",
   },
   {
     title: "ChatSpace",
-    imgUrl: "/assets/8bit-custom.png",
+    imgUrl: "/assets/test.png",
     stack: ["HTML", "CSS", "JavaScript"],
     link: "/",
   },
