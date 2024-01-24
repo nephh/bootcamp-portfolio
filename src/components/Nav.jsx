@@ -7,7 +7,9 @@ export default function Nav() {
 
   return (
     <>
-      <p className="manrope-bold text-2xl text-zinc-200">Owen McCormick</p>
+      <p className="manrope-bold text-2xl text-zinc-200">
+        <a href="/"> Owen McCormick</a>
+      </p>
       <div className="flex space-x-4">
         <Link
           to="/"
