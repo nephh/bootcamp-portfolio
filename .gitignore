@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 req.md
+# Local Netlify folder
+.netlify
